@@ -1,8 +1,11 @@
 #
 # install script for Ubuntu 22.04.01 LTS 
+sudo apt update
 sudo apt-get install python3-grpc-tools python3-grpcio
-git clone https://github.com/linuxmint/warpinator.git
-cd warpinator
+cd ~
+# git clone https://github.com/linuxmint/warpinator.git
+# cd warpinator
+cd warpinator-master
 
 # /* Optional: Check other version, or skip to build current source.
 # /* $ git checkout 1.2.3
